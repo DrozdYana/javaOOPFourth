@@ -28,7 +28,7 @@ public class SingleShip implements Runnable {
 
 	@Override
 	public void run() {
-		for (int i = 0; i < countBox + 1; i++) {
+		for (int i = 1; i < countBox + 1; i++) {
 			System.out.println(Thread.currentThread().getName() + "	" + i);
 			try {
 				Thread.sleep(timeLoadOneBox);
